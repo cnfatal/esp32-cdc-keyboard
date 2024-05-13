@@ -1,0 +1,11 @@
+menu "USB Configuration"
+    menu "Descriptor configuration"
+
+        config DESC_HID_STRING
+            string "HID Device String"
+            default "Gaming Mouse HID Device"
+            help
+                Name of the HID device.
+
+    endmenu
+endmenu
